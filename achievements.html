@@ -1,0 +1,73 @@
+<doctype html>
+<head>
+  <title>Achievement example</title>
+
+  <link rel="stylesheet" type="text/css" href="achievements.css" />
+  <style>
+    html { overflow: hidden;}
+	
+	body { font-family: Verdana,Arial,Helvetica; }
+	
+	#list { 
+	  display: none;
+	
+	  background-color: #eee; 
+	  
+	  height: 240px;
+	  width: 100%; 
+	}
+  </style>
+  
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+  <script src="achievements.js"></script>
+  
+  <script>
+    $(document).ready(function()
+    {
+		Achievements.initialize('myGame');
+		Achievements.register('Working on a learning website', '...and I liked it');
+		Achievements.register('I worked on a colour game', 'And it worked well .');
+    });
+	
+	
+	function toggleList()
+	{
+		$('#list').toggle('slow');
+		$('#list').html(Achievements.list);
+	}
+  </script>
+</head>
+<body>
+  <div id="content">
+    <input name="Button1" type="button" value="Working on a learning website" onclick="Achievements.show('I worked on a learning website');"class="input"><br />
+	<br>
+	<br>
+    <input name="Button2" type="button" value="Working on two questions everyday" onclick="Achievements.show('I worked on a a color game');" class="input"><br />
+	<br>
+	<br>
+	<input name="Button3" type="button" value="Clear achievements" onclick="Achievements.clear();"  class="input"><br />
+	<br>
+	<br/>
+	<select>   
+		<label for="List Of Achievements">List Of Classes</label>
+		<option value="Achievements">List of cources</option>
+	   <option value="Understanding on kotlin strings">Software Enginering</option>
+   <option value="Working on a learning website">Arts and Design</option>
+   <option value="Getting out of PIP">Computer Science</option>
+   <option value="Marketing and Enterprenuership">Marketing and Enterprenuership</option>
+   <option value="Working on my confidence">International relations</option>
+   <br>
+   </select>
+   <select>
+	<label for="LIst of Achievements">List of Achievements</label>
+	<br>
+	<input name="Button4" type="button" value="List achievements" onclick="toggleList();"><br />
+
+    <div id="list">
+		
+	</div>
+  </div>
+
+  <div id="status" class="achievement"><span class="title">Achievement unlocked</span><br/><span id="text">Some text</span></div>
+</body>
