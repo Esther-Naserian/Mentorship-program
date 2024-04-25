@@ -8,6 +8,10 @@ todoButton.addEventListener("click", addTodo);
 todoList.addEventListener("click", deleteCheck);
 filterOption.addEventListener("change", filterTodo);
 
+function addTask(){
+    if(inputBx.value === ''){
+    alert("You must write something!");}
+    }
 function addTodo(event) {
     event.preventDefault();
     const todoDiv = document.createElement("div");
@@ -18,6 +22,7 @@ function addTodo(event) {
     todoDiv.appendChild(newTodo);
     //ADDING TO LOCAL STORAGE 
     saveLocalTodos(todoInput.value);
+    
     
 
     const trashButton = document.createElement("button");

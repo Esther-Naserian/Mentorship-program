@@ -1,15 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    background-color:rgb(180, 231, 231);
+    background-color: rgb(106, 78, 133);
     color: rgb(212, 207, 207);
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
     border: 2px solid rgb(212, 207, 207);
+
 }
 
 header {
@@ -30,7 +30,7 @@ form button {
     padding: 0.5rem;
     padding-left: 1rem;
     font-size: 1.8rem;
-    /* border: none; */
+     border: solid 1px; 
     background: white;
     border-radius: 0.4rem;
 }
@@ -45,7 +45,7 @@ form button {
 
 form button:hover {
     color: white;
-    background: rgb(109, 234, 13);
+    background: rgb(75, 192, 192);
 }
 
 .fa-plus-circle {
@@ -122,4 +122,18 @@ form button:hover {
 }
 .h1{
 color: black;
+
+}
+.todo-button{
+    border: radius;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px
+}
+#maincontainter{
+  border: solid 1px;  
 }

@@ -1,0 +1,33 @@
+#navbar{
+display: flex;
+justify-content: space-evenly;
+background-color: rgb(90, 54, 123);
+height: 200px;
+font-size: medium;
+}
+#Inspiration{
+ font-size: large;
+}
+
+a{
+text-decoration: none;
+color: azure;
+}
+.Images{
+width: 20px;
+}
+button{
+color: white;
+border-radius: 40px;
+width: 50px;
+height: 20px;
+
+
+}
+#page{
+display: flex;
+}
+.graphicsImage{
+margin-left: 40%;
+
+}

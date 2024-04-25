@@ -1,0 +1,28 @@
+.BORNACRIME{
+text-align: center;
+}
+.born-a-crime image{
+    margin-left: 40%;
+}
+span{
+color: rgb(120, 69, 167);
+}
+.themes{
+    text-align: center;
+}
+#navbar{
+text-decoration: none;
+display: flex;
+justify-content: space-evenly;
+background-color: rgb(162, 119, 203);
+color: white;
+}
+a{
+text-decoration: none;
+color: white;
+}
+.logo{
+width: 150px;
+height: 100px;
+}
+

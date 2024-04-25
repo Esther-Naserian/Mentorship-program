@@ -1,31 +1,103 @@
 .input{
-    width: 300px;
+    width: 400px;
     height: 50px;
+    border-radius: 15px;
+    color: black;
+    
 
 
  }
   .button{
-width: 300px;
+width: 200px;
 height: 30px;
 border-radius: 50px;
 color:white;
 background-color: black;
   }
   #form{
+  margin-top: 30px;
+  margin-bottom: 30px;
     text-align: center;
     border: solid 1px;
     border-radius: 20px;
     width: 500px;
     justify-content: center;
     margin-left: 30%;
+    background-color: white;
+    
 
   }
   .Bird{
     width: 200px;
     /* height: 100vh; */
   }
+  body{
+  background-color: rgb(138, 121, 155);
+  }
+  
 
+  .submitbutton{
+  width: 200px;
+        height: 30px;
+        margin-bottom: 5%;
+        border-radius: 50px;
+        color:white;
+        background-color: black;
+  }
+  @media only  screen and (max-width : 650px) {
+
+
+    body{
+    overflow-x: hidden;
+    }
+    .input{
+      width: 100px;
+      height: 50px;
+      border-radius: 15px;
+      color: black;
+      
+  
+  
+   }
+    .button{
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  color:white;
+  background-color: black;
+    }
+    #form{
+      text-align: center;
+      border: solid 1px;
+      border-radius: 20px;
+      width: 200px;
+      justify-content: center;
+      margin-left: 30%;
+      background-color: white;
+      
+  
+    }
+    .Bird{
+      width: 200px;
+      /* height: 100vh; */
+    }
+    body{
+    background-color: rgb(138, 121, 155);
+    }
     
+  
+    .submitbutton{
+    width: 100px;
+          height: 30px;
+          margin-bottom: 5%;
+          border-radius: 50px;
+          color:white;
+          background-color: black;
+
+  
+    }
+
+  }
   
 
   
