@@ -6,7 +6,7 @@ let inputBox = document.createElement("p")
 let img = document.createElement("img")
 inputBox.className = "input-box"
 inputBox.setAttribute("contenteditable", "true");
-img.src = "images/delete.png"
+img.src = "Images/delete.jpeg"
 achievementContainer.appendChild(inputBox).appendChild(img);
 })
 achievementContainer.addEventListener("click", function(e){

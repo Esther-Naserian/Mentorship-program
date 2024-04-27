@@ -1,10 +1,14 @@
 #navbar{
+
 display: flex;
 justify-content: space-evenly;
 background-color: rgb(90, 54, 123);
 height: 200px;
-font-size: medium;
+font-size: 30px;
+margin-top: 10px;
+/* margin-bottom: 30px; */
 }
+
 #Inspiration{
  font-size: large;
 }
@@ -13,9 +17,15 @@ a{
 text-decoration: none;
 color: azure;
 }
+.logo{
+width: 100px;
+height: 70px;
+}
 .Images{
 width: 20px;
+height: 20px;
 }
+.welcome
 button{
 color: white;
 border-radius: 40px;
@@ -24,10 +34,76 @@ height: 20px;
 
 
 }
-#page{
-display: flex;
+#welcome{
+margin-left: 20%;
 }
-.graphicsImage{
-margin-left: 40%;
+.Imageprogress{
+width: 800px;
+margin-left: 10%;
+}
+
+
+#page{
+justify-content: center;
+margin-left: 20%;
 
 }
+
+.graphicsImage{
+margin-left: 40%;
+width: 500px;
+
+}
+@media only  screen and (max-width : 756px) {
+
+    #navbar{
+        display: flex;
+        gap: 5%;
+        background-color: rgb(90, 54, 123);
+        font-size: smaller;
+        }
+        #Inspiration{
+         font-size: smaller;
+        }
+        body{
+            overflow-x: hidden;
+            margin: 0;
+        }
+        
+        a{
+        text-decoration: none;
+        color: azure;
+        }
+        .Images{
+        width: 20px;
+        }
+        #Mainpage{
+        display: grid;
+        grid-template-columns: auto;
+        }
+        button{
+        color: white;
+        border-radius: 40px;
+        width: 50px;
+        height: 20px;
+        
+        
+        }
+        .title{
+        font-size: medium;
+        }
+        .logo{
+            width: 10px;
+        }
+        .progres{
+        width: 700px;
+        }
+        #page{
+        display: grid;
+        grid-template-columns: auto;
+        }
+        .graphicsImage{
+        width: 150px;
+        display: grid;
+
+}}

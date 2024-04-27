@@ -11,19 +11,21 @@ body {
     background: #f6f9fd;
     background-color: rgb(119, 104, 133);
   }
-  
+  #navbar{
+    font-size: 20px;
+  }
   .main-frame {
       max-width: auto;
       max-height: auto;
-      min-height: 600px;
+    
       margin: 1rem;
       background: #fff;
       padding: 1.5rem;
       border-radius: 8px;
       box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.2);
-      display: flex;
       flex-direction: column;
-      width: 600px;
+      width: 1000px;
+      height: 900px;
       border-radius: 40px;
   }
   
@@ -89,8 +91,11 @@ body {
       margin-top: 0.75rem;
       padding: 0.5rem;
       border: 1px solid #00897b;
-      border-radius: 0.2rem;
+      border-radius: 40px;
       cursor: pointer;
+      width: 150px;
+      height: 50px;
+      margin-left: 80%;
   }
   
   .add-todo:hover {
@@ -107,10 +112,15 @@ body {
       border: 1px solid #00897b;
       border-radius: 0.2rem;
       cursor: pointer;
+      width: 150px;
+      height: 50px;
+      margin-left: 80%;
+      border-radius: 40px;
   }
   
   .add-goal:hover {
       background-color: #00897b;
+      border-radius: 20%;
   }
     
   .add-goal:focus {
@@ -141,16 +151,183 @@ body {
       border-radius: 0.3rem;
       color: #00897b;
       cursor: pointer;
+      margin-right: 90%;
   }
+  
+  
   
   .list button:hover {
       color: red;
   }
   #navbar{
+    margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
-    gap: 5%;
   }
   a{
 text-decoration: none;
+  }
+  @media only  screen and (max-width : 650px) {
+    .logo{
+        width: 100px;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 90vh;
+            font-family: "Open Sans", sans-serif;
+            background: #f6f9fd;
+            background-color: rgb(119, 104, 133);
+          }
+          #navbar{
+
+            
+        
+          }
+          .main-frame {
+              max-width: auto;
+              max-height: auto;
+          
+              margin: 1rem;
+              background: #fff;
+              padding: 1.5rem;
+              border-radius: 8px;
+              box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.2);
+              flex-direction: column;
+              width: 1000px;
+              height:900px;
+              border-radius: 40px;
+          }
+          
+          .main-frame h1 {
+              margin: 0;
+              margin-bottom: 1.5rem;
+              font-weight: 200;
+              font-size: 3rem;
+              position: relative;
+              color: #1E1E24;
+              text-align: center;
+          }
+          
+          .main-frame h5 {
+              margin: 0;
+              margin-bottom: 1rem;
+              font-style: italic;
+              font-size: 0.8rem;
+              position: relative;
+              color: #1E1E24;
+              text-align: center;
+          }
+          
+          .main-frame h3 {
+              margin: 0;
+              margin-bottom: 1rem;
+              font-weight: 500;
+              font-size: 2rem;
+              position: relative;
+              color: black;
+              text-align: left;
+          }
+          
+          .main-frame input {
+              width: 100%;
+              font-size: 1.2rem;
+              padding: 0.5rem 0.5rem;
+              box-sizing: border-box;
+              border: none;
+              border-bottom: 1px solid #90a4ae;
+          }
+            
+          .main-frame input:focus {
+              border-bottom: 1px solid #00897b;
+              outline: 0;
+          }
+            
+          .main-frame input:focus::placeholder {
+              color: #00897b;
+          }
+          
+          .main-frame input::placeholder {
+              color: #90a4ae;
+              font-weight: 100;
+          }
+          
+          .todo-list,
+          .goal-list {
+            margin-top: 1.5rem;
+          }
+          
+          .add-todo {
+              margin-top: 0.75rem;
+              padding: 0.5rem;
+              border: 1px solid #00897b;
+              border-radius: 0.2rem;
+              cursor: pointer;
+          }
+          
+          .add-todo:hover {
+              background-color: #00897b;
+          }
+            
+          .add-todo:focus {
+              background-color: #00897b;
+          }
+          
+          .add-goal {
+              margin-top: 0.75rem;
+              padding: 0.5rem;
+              border: 1px solid #00897b;
+              border-radius: 0.2rem;
+              cursor: pointer;
+          }
+          
+          .add-goal:hover {
+              background-color: #00897b;
+          }
+            
+          .add-goal:focus {
+              background-color: #00897b;
+          }
+          
+          .list {
+              margin: 1rem 0;
+              list-style-type: none;
+              padding: 0;
+              overflow: scroll;
+          }
+            
+          .list li {
+              font-size: 1.5rem;
+              padding: 1rem 0.5rem;
+              border-bottom: 1px solid #eceff1;
+          }
+          
+          .list li span {
+              cursor: pointer;
+          }
+          
+          .list button {
+              font-size: 0.9rem;
+              margin-left: 0.75rem;
+              padding: 0.3rem;
+              border-radius: 0.3rem;
+              color: #00897b;
+              cursor: pointer;
+          }
+          
+          .list button:hover {
+              color: red;
+          }
+          #navbar{
+            font-size: smaller;
+            gap: 2%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 3fr;
+          }
+          a{
+        text-decoration: none;
+          }
+
+
   }

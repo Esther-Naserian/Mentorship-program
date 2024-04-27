@@ -2,25 +2,30 @@
     width: 300px;
     height: 50px; 
 }
+a{
+text-decoration: none;
+}
 .button{
         width: 300px;
         height: 30px;
-        border-radius: 50px;
+        border-radius: 40px;
         color:white;
         background-color: black;
 }
-.h1{
+.login{
 font-size: larger;
 }
 #form{
-margin-top: 40px;
+margin-top: 270px;
 margin-bottom: 40px;
 text-align: center;
     border: solid 1px;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 500px;
+
+    
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 35%;
     background-color: white;
 }
 body{
@@ -30,16 +35,20 @@ background-color: rgb(185, 143, 224);
 width: 200px;
 }
 @media only  screen and (max-width : 650px) {
+    
 
 body{
-    background-color: brown;
+    background-color: rgb(185, 143, 224);
+    overflow-x: hidden;
+    margin: 0%;
+
 }
 .input{
-    width: 300px;
+    width: 200px;
     height: 50px; 
 }
 .button{
-        width: 300px;
+        width: 200px;
         height: 30px;
         border-radius: 50px;
         color:white;
@@ -49,14 +58,21 @@ body{
 font-size: larger;
 }
 #form{
-margin-top: 40px;
-margin-bottom: 40px;
+margin-top: 40%;
+margin-right: 0;
 text-align: center;
     border: solid 1px;
-    border-radius: 20px;
-    width: 500px;
+    border-radius: 10px;
+    width: 300px;
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 10%;
+    margin-bottom: 0;
+    justify-content: center;
+
+    
+
+
+
     background-color: white;
 }
 body{

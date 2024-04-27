@@ -15,15 +15,16 @@ color:white;
 background-color: black;
   }
   #form{
-  margin-top: 30px;
+  margin-top: 100px;
   margin-bottom: 30px;
     text-align: center;
     border: solid 1px;
     border-radius: 20px;
     width: 500px;
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 35%;
     background-color: white;
+    
     
 
   }
@@ -49,10 +50,11 @@ background-color: black;
 
     body{
     overflow-x: hidden;
+    margin: 0;
     }
     .input{
       width: 100px;
-      height: 50px;
+      height: 30px;
       border-radius: 15px;
       color: black;
       
@@ -68,12 +70,12 @@ background-color: black;
     }
     #form{
       text-align: center;
-      border: solid 1px;
-      border-radius: 20px;
+      border-radius: 5px;
       width: 200px;
       justify-content: center;
-      margin-left: 30%;
       background-color: white;
+      margin-left: 80px;
+    margin-right: 0;
       
   
     }
@@ -87,7 +89,7 @@ background-color: black;
     
   
     .submitbutton{
-    width: 100px;
+    width: 90px;
           height: 30px;
           margin-bottom: 5%;
           border-radius: 50px;
@@ -96,9 +98,68 @@ background-color: black;
 
   
     }
+    .Heading{
+      font-size: small;
+    }
 
   }
+  @media only  screen and (max-width : 1268px) {
+    body{
+      overflow-x: hidden;
+      margin: 0;
+      }
+      .input{
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        color: black;
+        
+    
+    
+     }
+      .button{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    color:white;
+    background-color: black;
+      }
+      #form{
+        text-align: center;
+        border-radius: 5px;
+        width: 200px;
+        justify-content: center;
+        background-color: white;
+        margin-left: 80px;
+      margin-right: 0;
+        
+    
+      }
+      .Bird{
+        width: 200px;
+        /* height: 100vh; */
+      }
+      body{
+      background-color: rgb(138, 121, 155);
+      }
+      
+    
+      .submitbutton{
+      width: 90px;
+            height: 30px;
+            margin-bottom: 5%;
+            border-radius: 50px;
+            color:white;
+            background-color: black;
   
+    
+      }
+      .Heading{
+        font-size: small;
+      }
+  
+    }
+
 
   
   
