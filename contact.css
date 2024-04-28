@@ -1,5 +1,4 @@
 #navbar{
-
 display: flex;
 justify-content: space-evenly;
 background-color: rgb(90, 54, 123);
@@ -21,9 +20,11 @@ color: azure;
 width: 100px;
 height: 70px;
 }
-.Images{
-width: 20px;
-height: 20px;
+.images{
+
+}
+.journey{
+width: 1000px;
 }
 .welcome
 button{
@@ -54,56 +55,19 @@ margin-left: 40%;
 width: 500px;
 
 }
-@media only  screen and (max-width : 756px) {
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.Akirachix{
+    width: 50px;
+    height: 50px;
+}
 
-    #navbar{
-        display: flex;
-        gap: 5%;
-        background-color: rgb(90, 54, 123);
-        font-size: smaller;
-        }
-        #Inspiration{
-         font-size: smaller;
-        }
-        body{
-            overflow-x: hidden;
-            margin: 0;
-        }
         
-        a{
-        text-decoration: none;
-        color: azure;
-        }
-        .Images{
-        width: 20px;
-        }
-        #Mainpage{
-        display: grid;
-        grid-template-columns: auto;
-        }
-        button{
-        color: white;
-        border-radius: 40px;
-        width: 50px;
-        height: 20px;
-        
-        
-        }
-        .title{
-        font-size: medium;
-        }
-        .logo{
-            width: 10px;
-        }
-        .progres{
-        width: 700px;
-        }
-        #page{
-        display: grid;
-        grid-template-columns: auto;
-        }
-        .graphicsImage{
-        width: 150px;
-        display: grid;
+   
+       
 
-}}
+    
+   

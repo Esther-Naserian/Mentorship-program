@@ -201,7 +201,7 @@ body{
     color: white;
    }
     #My-TO-Do-list{
-        margin-top: 8%;
+        margin-top: 4%;
     }
     .logo{
     width: 50px;
@@ -210,19 +210,21 @@ body{
 
     }
     .NYJ a{
-    color: black;
-    
-    
-
-    
+    color: black; 
     }
 
-  @media only  screen and (max-width : 650px) {
+  @media only  screen and (max-width : 768px) {
+    body{
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+        background-color: #755b7c;
+       
+    }
     todo-list{
-        width: 150%;
-        max-width: 540px;
+        width: 80%;
+        max-width: 400px;
         background-color: #fff;
-        margin: 100px auto 20px;
         padding: 10px;
         border-radius: 10px;
     }
@@ -278,7 +280,7 @@ body{
        
        }
        .container{
-       width: 100%;
+       width: 60%;
        min-height: 100vh;
        background: linear-gradient(135deg,#153677 #4e085f);
        padding: 10px;
@@ -295,20 +297,27 @@ body{
        padding-left: 20px;
        margin-left: 20px;
        margin-bottom: 25px;
+       gap: 20%;
+       
        }
        a{
         text-decoration: none;
         color: #000;
-        background-color: #000;
        }
        .todo_list{
-           width: 50px;
+           width: 100px;
            max-width: 540px;
            background: #fff;
            border-radius: 10px;
            justify-content: center;
            margin-left: 40%;
            border:solid 1px;
+           width: 150%;
+           max-width: 540px;
+           background-color: #fff;
+           margin: 100px auto 20px;
+           padding: 10px;
+           border-radius: 10px;
        }
        .todo_list h2{
        color: #002765;
@@ -437,6 +446,7 @@ body{
         display: flex;
         justify-content: space-evenly;
         color: white;
+        font-size: small;
         background-color: rgb(154, 116, 189);
        }
        a{
@@ -447,11 +457,11 @@ body{
             margin-top: 8%;
         }
     
-      @media only  screen and (max-width : 650px) {
+    
         
       }
     
     
 
-  }
+  
 
