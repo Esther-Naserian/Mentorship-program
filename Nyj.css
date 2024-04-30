@@ -16,7 +16,10 @@ display: flex;
 justify-content: space-evenly;
 background-color: rgb(162, 119, 203);
 color: white;
+
+
 }
+
 a{
 text-decoration: none;
 color: white;
@@ -25,4 +28,38 @@ color: white;
 width: 150px;
 height: 100px;
 }
+@media only  screen and (max-width : 650px) {
+    .BORNACRIME{
+        text-align: center;
+        }
+        .born-a-crime image{
+            
+        }
+        span{
+        color: rgb(120, 69, 167);
+        }
+        .themes{
+            text-align: center;
+        }
+        #navbar{
+        text-decoration: none;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(162, 119, 203);
+        color: white;
+        gap: 2%;
+        
+        
+        
+        }
+        
+        a{
+        text-decoration: none;
+        color: white;
+        }
+        .logo{
+    width: 20px;
+    height: 10px;
+        }
 
+}
