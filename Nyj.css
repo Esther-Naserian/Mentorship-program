@@ -1,5 +1,5 @@
-.BORNACRIME{
-text-align: center;
+.born{
+margin-left: 500px;
 }
 .born-a-crime image{
     margin-left: 40%;
@@ -16,24 +16,53 @@ display: flex;
 justify-content: space-evenly;
 background-color: rgb(162, 119, 203);
 color: white;
+height: 150px;
+justify-content: space-evenly;
+
 
 
 }
+#BORNACRIME{
+display: flex;
+gap: 100px;
+}
+.novel{
+width: 500px;
+height: 60vh;
+margin-right:50px ;
+}
+p{
+    font-size: 19px;
+}
+#Themes{
+    margin-left: 60px;
+}
 
+    
+
+
+.Born{
+    width: 60px;
+}
+
+#Born-a-crime{
+display: flex;
+}
 a{
 text-decoration: none;
 color: white;
+font-size: 30px;
 }
 .logo{
 width: 150px;
 height: 100px;
 }
 @media only  screen and (max-width : 650px) {
-    .BORNACRIME{
-        text-align: center;
+    .born{
+        margin-left: 200px;
         }
         .born-a-crime image{
-            
+            margin-left: 40%;
         }
         span{
         color: rgb(120, 69, 167);
@@ -43,23 +72,58 @@ height: 100px;
         }
         #navbar{
         text-decoration: none;
-        display: flex;
+        gap: 3%;
         justify-content: space-evenly;
         background-color: rgb(162, 119, 203);
         color: white;
-        gap: 2%;
+        height: 50px;
+        font-size: smaller;
+    
         
         
         
         }
+        #BORNACRIME{
+        display: flex;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 100px;
+        }
+        .novel{
+        width: 300px;
+        height: 60vh;
+        text-align: center;
+        margin-left: 60px;
+    
+        }
+        p{
+            font-size: 19px;
+        }
+        #Themes{
+            margin-left: 60px;
+        }
+        body{
+            overflow-x: hidden;
+            margin: 0%;
+        }
         
+            
+        
+        
+        .Born{
+            width: 60px;
+        }
+        
+        #Born-a-crime{
+        display: flex;
+        }
         a{
         text-decoration: none;
         color: white;
+        font-size: 30px;
         }
         .logo{
-    width: 20px;
-    height: 10px;
+        width: 50px;
+        height: 100px;
         }
-
 }
