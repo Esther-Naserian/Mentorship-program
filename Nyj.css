@@ -27,9 +27,11 @@ display: flex;
 gap: 100px;
 }
 .novel{
-width: 500px;
+width: 600px;
 height: 60vh;
 margin-right:50px ;
+object-fit: cover;
+
 }
 p{
     font-size: 19px;
