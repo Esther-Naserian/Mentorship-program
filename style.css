@@ -96,6 +96,7 @@ body{
    font-size: 16px;
    cursor: pointer;
    border-radius: 40px;
+
    }
    ul li{
    list-style: none;
@@ -184,6 +185,8 @@ body{
    ul li.checked::before{
        background-image: url(/images/checked.png);
    }
+
+   
    ul li span{
        position: absolute;
        right: 0;
@@ -196,6 +199,11 @@ body{
     
     
    }
+   .Summary{
+    color: white;
+    
+   }
+   
    a{
     text-decoration: none;
     color: white;
