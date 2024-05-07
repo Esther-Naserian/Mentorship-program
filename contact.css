@@ -1,7 +1,7 @@
 #navbar{
 display: flex;
 justify-content: space-evenly;
-background-color: rgb(90, 54, 123);
+background-color:rgb(90, 54, 123);
 height: 200px;
 font-size: 30px;
 margin-top: 10px;
@@ -69,8 +69,84 @@ width: 500px;
     width: 50px;
     height: 50px;
 }
+@media only  screen and (max-width : 768px) {
 
+    #navbar{
+        display: flex;
+        justify-content: space-evenly;
+        background-color:rgb(90, 54, 123);
+        height: 200px;
+        font-size: 10px;
+        margin-top: 10px;
+        /* margin-bottom: 30px; */
+        }
         
+        #Inspiration{
+         font-size: large;
+        }
+        
+        a{
+        text-decoration: none;
+        color: azure;
+        }
+        .logo{
+        width: 50px;
+        height: 20px;
+        }
+        .images{
+        
+width: 100px;
+height: 50px;
+        }
+        .journey{
+        width: 1000px;
+        }
+        .welcome
+        button{
+        color: white;
+        border-radius: 40px;
+        width: 50px;
+        height: 20px;
+        
+        
+        }
+        #welcome{
+        margin-left: 20%;
+        }
+        .Imageprogress{
+        width: 800px;
+        margin-left: 10%;
+        }
+        
+        
+        #page{
+        justify-content: center;
+        margin-left: 20%;
+        
+        }
+        
+        .graphicsImage{
+        margin-left: 40%;
+        width: 500px;
+        
+        }
+        #footer{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            text-align: center;
+            background-color:rgb(90, 54, 123);
+            height:130px;
+            font: size 40px;;
+            color: white;
+        }
+        .Akirachix{
+            width: 50px;
+            height: 50px;
+
+    
+}
+}     
    
        
 
